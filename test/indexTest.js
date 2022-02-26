@@ -12,7 +12,6 @@ describe('index.js', function () {
       expect(scuberGreetingForFeet(2501)).to.equal('No can do.');
     });
   });
-
   describe('ternaryCheckCity()', function () {
     it('returns "Ok, sounds good." when the city is NYC', function () {
       expect(ternaryCheckCity('NYC')).to.equal('Ok, sounds good.');
